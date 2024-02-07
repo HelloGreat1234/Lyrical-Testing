@@ -3,7 +3,7 @@ import FrontPage from "./components/Intro"
 import Explanation from "./components/explain"
 
 
-export default function home() {
+const Home = () => {
 
     return (
         <div >
@@ -16,3 +16,5 @@ export default function home() {
         </div>
     )
 }
+
+export default Home;
